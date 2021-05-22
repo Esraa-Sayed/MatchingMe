@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        E = findViewById(R.id.editTextTextEmailAddress);
+        /*E = findViewById(R.id.editTextTextEmailAddress);
         E2 = findViewById(R.id.editTextTextPassword);
         B2 = findViewById(R.id.button2);
         B1 = findViewById(R.id.button);
@@ -48,9 +48,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             I.putExtra("ID", ID);
             startActivity(I);
             finish();
-        }
+        }*/
+        Intent I = new Intent(this, splashScrean.class);
+        startActivity(I);
+        finish();
     }
-
     boolean isEmailValid(CharSequence email) {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches();
     }

@@ -34,12 +34,12 @@ public class splashScrean extends AppCompatActivity {
         setContentView(R.layout.splash_screan);
         NameOFUser = findViewById(R.id.Name);
         UserImage = findViewById(R.id.imageView2);
-        Intent I = getIntent();
+        /*Intent I = getIntent();
         ID = I.getExtras().getInt("ID");
         adapter = new dataBaseAdapter(this);
         entry = adapter.getEntry(ID);
         B = entry.getB();
-        /*if (B != null) {
+        if (B != null) {
             UserImage.setImageBitmap(entry.getB());
         } else {
             Drawable draw = getResources().getDrawable(android.R.drawable.ic_menu_gallery);
@@ -79,7 +79,7 @@ public class splashScrean extends AppCompatActivity {
 
     void I() {
         Intent I = new Intent(this, home.class);
-        I.putExtra("ID", ID);
+       // I.putExtra("ID", ID);
         startActivity(I);
         finish();
     }

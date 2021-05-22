@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">Matching Me</string>
+    <string name="Email">E-mail</string>
+    <string name="Passward">Password</string>
+    <string name="Sign_UP">Register</string>
+    <string name="Sign_in">Sign in </string>
+    <string name="TakePhoto">Take photo</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Name">Name  </string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="acc">Accepted privacy policy</string>
+    <string name="title_activity_home">home</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Courses">Courses</string>
+    <string name="Exams">Exams</string>
+    <string name="firstLevel">First Level</string>
+    <string name="secondLevel">Second Level</string>
+    <string name="chooseLevel">Choose Level</string>
+    <string name="ChooseFeeling">expressions</string>
+    <string name="Smiley">Smile</string>
+    <string name="smileDes">Facial expressions of smiling person:-</string>
+    <string name="Example">Examples</string>
+    <string name="laugh">Laugh</string>
+    <string name="laughDes">Expressions of happiness</string>
+    <string name="Surprised">"  Surprised"</string>
+    <string name="SurprisedDes">Surprised Expr</string>
+    <string name="sad">sadless</string>
+    <string name="sadDes">sadExprassion</string>
+    <string name="anger">anger</string>
+    <string name="angerDes">angerExpr</string>
+    <string name="confusion">confusion</string>
+    <string name="confusionDes">confusionExpr</string>
+</resources>

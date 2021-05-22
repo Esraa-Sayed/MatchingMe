@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.log_in">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Expressions.Confusion" android:parentActivityName=".Levels" ></activity>
+        <activity
+            android:name=".Expressions.Anger"
+            android:parentActivityName=".Levels" />
+        <activity
+            android:name=".Expressions.Sad"
+            android:parentActivityName=".Levels" />
+        <activity
+            android:name=".Expressions.Surprised"
+            android:parentActivityName=".Levels" />
+        <activity
+            android:name=".Expressions.laugh"
+            android:parentActivityName=".Levels" />
+        <activity
+            android:name=".Expressions.Smile"
+            android:parentActivityName=".Levels" />
+        <activity
+            android:name=".Levels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChooseLevel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splashScrean"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sign_up"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

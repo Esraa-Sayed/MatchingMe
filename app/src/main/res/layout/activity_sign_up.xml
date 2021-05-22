@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#4C80AD"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="@dimen/_108sdp"
+            android:layout_height="@dimen/_108sdp"
+            android:layout_gravity="center"
+            android:background="#00424242"
+            app:srcCompat="@drawable/ic_action_name2" />
+        <EditText
+            android:id="@+id/PersonName"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/btn"
+            android:drawableLeft="@drawable/ic_action_name3"
+            android:elevation="@dimen/_5sdp"
+            android:hint="textPersonName"
+            android:inputType="text"
+            android:padding="@dimen/_10sdp" />
+        <EditText
+            android:id="@+id/EmailAddress2"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/btn"
+            android:drawableLeft="@drawable/ic_stat_name"
+            android:elevation="@dimen/_5sdp"
+            android:hint="@string/Email"
+            android:inputType="text"
+            android:padding="@dimen/_10sdp" />
+        <EditText
+            android:id="@+id/Password3"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/btn"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:elevation="@dimen/_5sdp"
+            android:hint="@string/Passward"
+            android:inputType="textPassword"
+            android:padding="@dimen/_10sdp" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:id="@+id/RG">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Male"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Female"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+        </RadioGroup>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:text="@string/acc"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/btn"
+            android:backgroundTint="#E91E63"
+            android:onClick="clickActionButton3"
+            android:padding="@dimen/_20sdp"
+            android:text="Register"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Email">الايميل</string>
+    <string name="Passward">كلمه المرور</string>
+    <string name="Sign_UP">تسجيل</string>
+    <string name="Sign_in">تسجيل الدخول</string>
+    <string name="TakePhoto">التقاط صورة</string>
+    <string name="Gallery">عرض الصور</string>
+    <string name="Name">"ألاسم  "</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">أنثي</string>
+    <string name="acc">أوافق علي سياسه الخصوصيه</string>
+    <string name="title_activity_home">الصفحه الرئيسية</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">ألاول</string>
+    <string name="second_fragment_label">الثاني</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+
+    <string name="hello_first_fragment">اهلا الاول</string>
+    <string name="hello_second_fragment">اهلا الثاني</string>
+    <string name="Courses">دروس تعليمية</string>
+    <string name="Exams">أختبارات</string>
+    <string name="firstLevel">المستوي الأول</string>
+    <string name="secondLevel">المستوي الثاني</string>
+    <string name="chooseLevel">أختـر المستوي</string>
+    <string name="ChooseFeeling">التـعـبـيـرات</string>
+    <string name="Smiley">الإبتسامه</string>
+    <string name="smileDes"><b>تعبيرات وجهه :</b>\n
+     - ينسحب طرفا الشفتين إلى الخلف ويرتفعان إلى الأعلى\n
+        - قد يظهر الجفن الأسفل تجاعيد أو يصبح مشدودًا.\n
+        - خطوط متجعدة حول العينين بجوار الطرف الخارجي لهما.
+    </string>
+    <string name="Example"><b>هذه بعض الامثله الاخري بالصور :-</b>
+    </string>
+    <string name="laugh">السعادة</string>
+    <string name="laughDes"><b>تعبيرات وجهه :</b>\n
+        \n .نفتح الفم وتنكشف الأسنان -
+        - تظهر تجعيدة تبدأ من طرفي الأنف حتى الطرفين الخارجيين للشفاه.n\
+        - ترتفع الوجنتان.n\
+    </string>
+    <string name="Surprised">الاندهاش</string>
+    <string name="SurprisedDes"><b>تعبيرات وجهه :</b>\n
+        - يرتفع الحاجبان وينحنيان.\n
+        - تتمدد البشرة أسفل الحاجب.\n
+        - تجاعيد أفقية بعرض الجبهة.\n
+        - يتم فتح الجفون، يظهر بياض العين بالأعلى والأسفل.\n
+        - يسقط الفك مفتوحًا وتفترق الأسنان لكن لا يوجد شد أو توتر بالفم.\n
+    </string>
+    <string name="sad">الحزن</string>
+    <string name="sadDes"><b>تعبيرات وجهه :</b>\n
+        - تتقارب الأركان الداخلية للجفنين ثم ترتفع.\n
+        - تتحول البشرة أسفل الجفن إلى مثلث، حيث يرتفع الركن الداخلي.\n
+        - يتحرك طرفا الشفاه إلى الأسفل.\n
+        - يرتفع الفك إلى الأعلى.\n
+        - تمتد الشفة السفلى إلى الخارج.\n
+    </string>
+    <string name="anger">الغـضـب</string>
+    <string name="angerDes"><b>تعبيرات وجهه :</b>\n
+        -  ينخفض الجفنان ويتقاربان.\n
+        -  تظهر خطوطٌ رأسية بين الجفنين.\n
+        - تحدق العينان بثبات أو تجحظ\n
+        - يُمكن أن يتم الضغط على الشفاه بقسوة مع انخفاض الطرفين أو شكلٍ مربع كما في حالة الصياح.\n
+        - قد تتسع فتحتا الأنف.\n
+        - يبرز الفك الأسفل إلى الخارج.\n
+    </string>
+    <string name="confusion">الحيرة</string>
+    <string name="confusionDes"><b>تعبيرات وجهه :</b>\n
+        - ينخفض الجفنان ويتقاربان. \n
+        - تظهر خطوطٌ رأسية بين الجفنين. \n
+        - يصبح الجفن الأسفل مشدودًا. \n
+        - تنظر العينان لاعلي. \n
+    </string>
+</resources>

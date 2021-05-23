@@ -95,20 +95,20 @@
         -  تظهر خطوطٌ رأسية بين الجفنين.\n
         - تحدق العينان بثبات أو تجحظ\n
     </string>
-    <string name="fear_disgustDes" >
+    <string name="fear_disgustDes">
                 <b>تعبيرات وجهه :</b>\n
         -يرتفع الحاجبان لاعلي \n
         - تحدق العينين \n
         - يأخذ الفم وضع نصف الدائره لاسفل \n
     </string>
-    <string name="angry_disgustDes" >
+    <string name="angry_disgustDes">
          <b>تعبيرات وجهه :</b>\n
         -  ينخفض الجفنان ويتقاربان.\n
         -  تظهر خطوطٌ رأسية بين الجفنين.\n
         - تحدق العينان بثبات أو تجحظ\n
          - يأخذ الفم وضع نصف الدائره لاسفل \n
     </string>
-    <string name="fear_happyDes" >
+    <string name="fear_happyDes">
          <b>تعبيرات وجهه :</b>\n
         -يرتفع الحاجبان لاعلي \n
         - تحدق العينين \n
@@ -120,4 +120,5 @@
         - تحدق العينين \n
           - يسقط الفك مفتوحًا وتفترق الأسنان لكن لا يوجد شد أو توتر بالفم.\n
     </string>
+    <string name="ChooseCorretExpr">أختر التعبير المناسب للصور التالية</string>
 </resources>

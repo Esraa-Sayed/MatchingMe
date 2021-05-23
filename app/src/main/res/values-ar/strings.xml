@@ -93,4 +93,5 @@
     <string name="angry_disgustDes" />
     <string name="fear_happyDes" />
     <string name="fear_surpriseDes">kj</string>
+    <string name="ChooseCorretExpr">أختر التعبير المناسب للصور التالية</string>
 </resources>

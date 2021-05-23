@@ -15,12 +15,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".CmplexExpr.angry_surprise" android:parentActivityName=".SecondLevel"/>
-        <activity android:name=".CmplexExpr.angry_happiness" android:parentActivityName=".SecondLevel"/>
-        <activity android:name=".CmplexExpr.fear_disgust" android:parentActivityName=".SecondLevel"/>
-        <activity android:name=".CmplexExpr.angry_disgust" android:parentActivityName=".SecondLevel"/>
-        <activity android:name=".CmplexExpr.fear_happy" android:parentActivityName=".SecondLevel"/>
-        <activity android:name=".CmplexExpr.fear_surprise" android:parentActivityName=".SecondLevel"/>
+        <activity android:name=".SecondLevelExam"  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".CmplexExpr.angry_surprise"
+            android:parentActivityName=".SecondLevel" />
+        <activity
+            android:name=".CmplexExpr.angry_happiness"
+            android:parentActivityName=".SecondLevel" />
+        <activity
+            android:name=".CmplexExpr.fear_disgust"
+            android:parentActivityName=".SecondLevel" />
+        <activity
+            android:name=".CmplexExpr.angry_disgust"
+            android:parentActivityName=".SecondLevel" />
+        <activity
+            android:name=".CmplexExpr.fear_happy"
+            android:parentActivityName=".SecondLevel" />
+        <activity
+            android:name=".CmplexExpr.fear_surprise"
+            android:parentActivityName=".SecondLevel" />
         <activity
             android:name=".SecondLevel"
             android:theme="@style/AppTheme.NoActionBar" />

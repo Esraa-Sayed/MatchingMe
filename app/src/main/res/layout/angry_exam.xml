@@ -1,78 +1,376 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="#B36A89BC">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <TextView
         android:id="@+id/TheQuastion"
         android:layout_width="@dimen/_250sdp"
-        android:layout_height="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/_80ssp"
+        android:layout_marginTop="@dimen/_10ssp"
         android:layout_marginRight="@dimen/_10sdp"
-        android:background="@drawable/button1"
+        android:background="@drawable/underworld_button1"
         android:textSize="@dimen/_25ssp"
         android:gravity="center"
-        android:textColor="#FFFFFF"
-        android:text="أختر الاجابه الصحيحه"/>
+        android:textColor="#01170C"
+        android:text="@string/chooseAngerFace"/>
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="@dimen/_150sdp"
         android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_5sdp"
         android:weightSum="3"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <ImageView
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
-            android:id="@+id/Img1"
             android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/anger"
             />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
-            android:id="@+id/Img2"
             android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/happy"
             />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
-            android:id="@+id/Img3"
             android:scaleType="fitCenter"
+            android:src="@drawable/sad"
             />
     </LinearLayout>
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Q"
+        android:id="@+id/Q1"
         android:orientation="horizontal"
         android:weightSum="3"
-        android:layout_gravity="center"
         android:gravity="center"
+        android:layout_marginBottom="@dimen/_5sdp"
         >
         <RadioButton
-            android:id="@+id/Q1Ch1"
+            android:id="@+id/Q1Answer"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:layout_gravity="center"
+            android:textColor="#2F6A16"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/_5sdp"
             android:layout_marginLeft="@dimen/_15sdp"
             />
         <RadioButton
-            android:id="@+id/Q1Ch2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             />
         <RadioButton
-            android:id="@+id/Q1Ch3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/confused_cartoon"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/aboos"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/angry_cartoon5"
+            />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q2"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+        <RadioButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             />
+        <RadioButton
+            android:id="@+id/Q2Answer"
+            android:textColor="#2F6A16"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
     </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/sad2"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/angery2"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/happy2"
+            />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q3"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+        <RadioButton
+            android:id="@+id/Q3Answer"
+            android:textColor="#2F6A16"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/anger4"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/surprise6"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sad6"
+            />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q4"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+        <RadioButton
+            android:id="@+id/Q4Answer"
+            android:textColor="#2F6A16"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/smile_cartoon"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/scared_cartoon"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/angercartoones"
+            />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q5"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+        <RadioButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:textColor="#2F6A16"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:id="@+id/Q5Answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/_5sdp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/Score"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/plank"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:text= "@string/Score"
+        android:textSize="@dimen/_30ssp"
+        />
 </LinearLayout>
+</ScrollView>

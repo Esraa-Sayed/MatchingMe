@@ -72,4 +72,8 @@
         - تنظر العينان لاعلي. \n
     </string>
     <string name="chooseExam">أختر الامتحان</string>
+    <string name="chooseAngerFace">أختر الوجهه الغاضب</string>
+    <string name="Score">النـتـيـجـة</string>
+    <string name="YourScore">نتيجتك : -</string>
+    <string name="Gong">مبرووووووك</string>
 </resources>

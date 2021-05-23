@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(I);
             finish();
         }*/
+        GlobalVar Var = new GlobalVar();
         Intent I = new Intent(this, splashScrean.class);
         startActivity(I);
         finish();

@@ -15,7 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".Expressions.Confusion" android:parentActivityName=".Levels" ></activity>
+        <activity android:name=".AngryExam" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Exams" />
+        <activity
+            android:name=".Expressions.Confusion"
+            android:parentActivityName=".Levels" />
         <activity
             android:name=".Expressions.Anger"
             android:parentActivityName=".Levels" />

@@ -14,7 +14,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">ألاول</string>
     <string name="second_fragment_label">الثاني</string>
-    <string name="next">التالي</string>
+    <string name="next">التـــالــي</string>
     <string name="previous">السابق</string>
 
     <string name="hello_first_fragment">اهلا الاول</string>
@@ -71,4 +71,5 @@
         - يصبح الجفن الأسفل مشدودًا. \n
         - تنظر العينان لاعلي. \n
     </string>
+    <string name="chooseExam">أختر الامتحان</string>
 </resources>

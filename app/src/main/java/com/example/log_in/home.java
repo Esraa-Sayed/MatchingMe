@@ -47,5 +47,10 @@ public class home extends AppCompatActivity implements View.OnClickListener {
             Intent i = new Intent(this,ChooseLevel.class);
             startActivity(i);
         }
+        if(view == Exam)
+        {
+            Intent i = new Intent(this,Exams.class);
+            startActivity(i);
+        }
     }
 }

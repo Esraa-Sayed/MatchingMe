@@ -15,8 +15,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".AngryExam" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Exams" />
+        <activity android:name=".SecondLevel"  android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ChooseExamLevel"  android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AllExams.AngryExam"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".AllExams.SmileExam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllExams.ConfusionExam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllExams.laughExam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllExams.SadExam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllExams.SurprisedExam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exams"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Expressions.Confusion"
             android:parentActivityName=".Levels" />

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:background="#B36A89BC">
 <LinearLayout android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
     <TextView
         android:id="@+id/TheQuastion"
@@ -18,7 +20,15 @@
         android:textSize="@dimen/_25ssp"
         android:gravity="center"
         android:textColor="#01170C"
-        android:text="@string/chooseAngerFace"/>
+        /></LinearLayout>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="@dimen/_150sdp"
         android:orientation="horizontal"
@@ -26,27 +36,27 @@
         android:weightSum="3"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <ImageView
+            android:id="@+id/Q1Answerimg"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/anger"
             />
         <ImageView
+            android:id="@+id/image2Q1"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/happy"
             />
         <ImageView
+            android:id="@+id/image3Q1"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/sad"
             />
     </LinearLayout>
     <RadioGroup
@@ -95,27 +105,27 @@
         android:weightSum="3"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <ImageView
+            android:id="@+id/image3Q2"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/confused_cartoon"
             />
         <ImageView
+            android:id="@+id/image2Q2"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/aboos"
             />
         <ImageView
+            android:id="@+id/Q2Answerimg"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/angry_cartoon5"
             />
     </LinearLayout>
     <RadioGroup
@@ -164,27 +174,27 @@
         android:weightSum="3"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <ImageView
+            android:id="@+id/image2Q3"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/sad2"
             />
         <ImageView
+            android:id="@+id/Q3Answerimg"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/angery2"
             />
         <ImageView
+            android:id="@+id/image3Q3"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/happy2"
             />
     </LinearLayout>
     <RadioGroup
@@ -233,27 +243,27 @@
         android:weightSum="3"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <ImageView
+            android:id="@+id/Q4Answerimg"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/anger4"
             />
         <ImageView
+            android:id="@+id/image2Q4"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/surprise6"
             />
         <ImageView
+            android:id="@+id/image3Q4"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/sad6"
             />
     </LinearLayout>
     <RadioGroup
@@ -302,27 +312,27 @@
         android:weightSum="3"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <ImageView
+            android:id="@+id/image2Q5"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/smile_cartoon"
             />
         <ImageView
+            android:id="@+id/image3Q5"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:layout_marginRight="@dimen/_5sdp"
-            android:src="@drawable/scared_cartoon"
             />
         <ImageView
+            android:id="@+id/Q5Answerimg"
             android:layout_width="0dp"
             android:layout_height="@dimen/_150sdp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/angercartoones"
             />
     </LinearLayout>
     <RadioGroup
@@ -374,3 +384,4 @@
         />
 </LinearLayout>
 </ScrollView>
+</LinearLayout>

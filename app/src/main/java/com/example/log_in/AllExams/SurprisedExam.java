@@ -1,4 +1,4 @@
-package com.example.log_in;
+package com.example.log_in.AllExams;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -15,8 +14,15 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AngryExam extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener{
+import com.example.log_in.R;
 
+public class SurprisedExam extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener{
+    ImageView Q1Answerimg,image2Q1,image3Q1;
+    ImageView Q2Answerimg,image2Q2,image3Q2;
+    ImageView Q3Answerimg,image2Q3,image3Q3;
+    ImageView Q4Answerimg,image2Q4,image3Q4;
+    ImageView Q5Answerimg,image2Q5,image3Q5;
+    TextView TheQuastion;
     RadioGroup Q1,Q2,Q3,Q4,Q5;
     RadioButton Q1Answer,Q2Answer,Q3Answer,Q4Answer,Q5Answer;
     MediaPlayer Correct;
@@ -27,31 +33,22 @@ public class AngryExam extends AppCompatActivity implements RadioGroup.OnChecked
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.angry_exam);
-        Q1 = findViewById(R.id.Q1);
-        Q2 = findViewById(R.id.Q2);
-        Q3 = findViewById(R.id.Q3);
-        Q4 = findViewById(R.id.Q4);
-        Q5 = findViewById(R.id.Q5);
+        setContentView(R.layout.all_exams);
+        Q1 = findViewById(R.id.Q1);Q2 = findViewById(R.id.Q2);Q3 = findViewById(R.id.Q3);Q4 = findViewById(R.id.Q4);Q5 = findViewById(R.id.Q5);
         score = findViewById(R.id.Score);
-        Q1Answer = findViewById(R.id.Q1Answer);
-        Q2Answer = findViewById(R.id.Q2Answer);
-        Q3Answer = findViewById(R.id.Q3Answer);
-        Q4Answer = findViewById(R.id.Q4Answer);
-        Q5Answer = findViewById(R.id.Q5Answer);
-        Q1.setOnCheckedChangeListener(this);
-        Q2.setOnCheckedChangeListener(this);
-        Q3.setOnCheckedChangeListener(this);
-        Q4.setOnCheckedChangeListener(this);
-        Q5.setOnCheckedChangeListener(this);
+        Q1Answer = findViewById(R.id.Q1Answer);Q2Answer = findViewById(R.id.Q2Answer);Q3Answer = findViewById(R.id.Q3Answer);Q4Answer = findViewById(R.id.Q4Answer);Q5Answer = findViewById(R.id.Q5Answer);
+        Q1.setOnCheckedChangeListener(this);Q2.setOnCheckedChangeListener(this);
+        Q3.setOnCheckedChangeListener(this);Q4.setOnCheckedChangeListener(this);Q5.setOnCheckedChangeListener(this);
         Correct = MediaPlayer.create(this,R.raw.rightanswer);
         Wrong =  MediaPlayer.create(this,R.raw.wronganswer);
+        putImg();
+
         score.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(ExamQ < 5)
                 {
-                    Toast.makeText(AngryExam.this,"جاوب علي جميع الاسأله",Toast.LENGTH_LONG).show();
+                    Toast.makeText(SurprisedExam.this,"جاوب علي جميع الاسأله",Toast.LENGTH_LONG).show();
                 }
                 else
                 {
@@ -60,10 +57,10 @@ public class AngryExam extends AppCompatActivity implements RadioGroup.OnChecked
                     v.setText(Score + " من 5");
                     AlertDialog.Builder builder;
                     AlertDialog dialog;
-                    builder = new AlertDialog.Builder(AngryExam.this);
+                    builder = new AlertDialog.Builder(SurprisedExam.this);
 
                     builder.setCancelable(false);
-                   builder.setView(view2);
+                    builder.setView(view2);
                     builder.setNegativeButton("Ok", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
@@ -77,7 +74,32 @@ public class AngryExam extends AppCompatActivity implements RadioGroup.OnChecked
             }
         });
     }
+    void putImg()
+    {
+        TheQuastion = findViewById(R.id.TheQuastion);
+        TheQuastion.setText(R.string.chooseSurprisedFace);
+        Q1Answerimg = findViewById(R.id.Q1Answerimg);  Q1Answerimg.setImageResource(R.drawable.mondahesh);
+        image2Q1 = findViewById(R.id.image2Q1);        image2Q1.setImageResource(R.drawable.sad_cartoon3);
+        image3Q1 = findViewById(R.id.image3Q1);        image3Q1.setImageResource(R.drawable.neural_cartoon3);
 
+        Q2Answerimg = findViewById(R.id.Q2Answerimg);   Q2Answerimg.setImageResource(R.drawable.surprise3);
+        image2Q2 = findViewById(R.id.image2Q2);         image2Q2.setImageResource(R.drawable.sad2);
+        image3Q2 = findViewById(R.id.image3Q2);         image3Q2.setImageResource(R.drawable.happy2);
+
+        Q3Answerimg = findViewById(R.id.Q3Answerimg);    Q3Answerimg.setImageResource(R.drawable.surprise2);
+        image2Q3 = findViewById(R.id.image2Q3);           image2Q3.setImageResource(R.drawable.laugh10);
+        image3Q3 = findViewById(R.id.image3Q3);            image3Q3.setImageResource(R.drawable.haqer);
+
+
+        Q4Answerimg = findViewById(R.id.Q4Answerimg);    Q4Answerimg.setImageResource(R.drawable.surprise);
+        image2Q4 = findViewById(R.id.image2Q4);           image2Q4.setImageResource(R.drawable.fear);
+        image3Q4 = findViewById(R.id.image3Q4);            image3Q4.setImageResource(R.drawable.happy);
+
+
+        Q5Answerimg = findViewById(R.id.Q5Answerimg);    Q5Answerimg.setImageResource(R.drawable.surprise_cartoon);
+        image2Q5 = findViewById(R.id.image2Q5);           image2Q5.setImageResource(R.drawable.worry_carton);
+        image3Q5 = findViewById(R.id.image3Q5);            image3Q5.setImageResource(R.drawable.sad_cartoon2);
+    }
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         if(group==Q1)

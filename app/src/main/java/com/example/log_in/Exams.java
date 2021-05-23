@@ -3,17 +3,16 @@ package com.example.log_in;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.log_in.Expressions.Smile;
+import com.example.log_in.AllExams.AngryExam;
+import com.example.log_in.AllExams.ConfusionExam;
+import com.example.log_in.AllExams.SadExam;
+import com.example.log_in.AllExams.SmileExam;
+import com.example.log_in.AllExams.SurprisedExam;
+import com.example.log_in.AllExams.laughExam;
 
 public class Exams extends AppCompatActivity implements View.OnClickListener  {
     Button finish;
@@ -51,6 +50,31 @@ public class Exams extends AppCompatActivity implements View.OnClickListener  {
         else if(view == anger)
         {
             Intent i = new Intent(this, AngryExam.class);
+            startActivity(i);
+        }
+        else if(view == smile)
+        {
+            Intent i = new Intent(this, SmileExam.class);
+            startActivity(i);
+        }
+        else if(view == confusion)
+        {
+            Intent i = new Intent(this, ConfusionExam.class);
+            startActivity(i);
+        }
+        else if(view == Laugh)
+        {
+            Intent i = new Intent(this, laughExam.class);
+            startActivity(i);
+        }
+        else if(view == sad)
+        {
+            Intent i = new Intent(this, SadExam.class);
+            startActivity(i);
+        }
+        else if(view == surprised)
+        {
+            Intent i = new Intent(this, SurprisedExam.class);
             startActivity(i);
         }
     }

@@ -87,4 +87,10 @@
     <string name="fear_disgust">خائف_مشمئز</string>
     <string name="fear_happy">خائف_فرحان</string>
     <string name="fear_surprise">خائف_مندهش</string>
+    <string name="angry_surpriseDes">" -  ينخفض الجفنان ويتقاربان.\n         -  تظهر خطوطٌ رأسية بين الجفنين.\n         - تحدق العينان بثبات أو تجحظ\n      - يسقط الفك مفتوحًا وتفترق الأسنان لكن لا يوجد شد أو توتر بالفم.\n"</string>
+    <string name="angry_happinessDes"><![CDATA["<b>تعبيرات وجهه :</b>\n         -  ينخفض الجفنان ويتقاربان.\n         -  تظهر خطوطٌ رأسية بين الجفنين.\n         - تحدق العينان بثبات أو تجحظ\n  - نفتح الفم وتنكشف الأسنان. \n    - تظهر تجعيدة تبدأ من طرفي الأنف حتى الطرفين الخارجيين للشفاه.\n         - ترتفع الوجنتان.\n     "]]></string>
+    <string name="fear_disgustDes" />
+    <string name="angry_disgustDes" />
+    <string name="fear_happyDes" />
+    <string name="fear_surpriseDes">kj</string>
 </resources>

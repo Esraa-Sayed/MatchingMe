@@ -14,7 +14,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">ألاول</string>
     <string name="second_fragment_label">الثاني</string>
-    <string name="next">التالي</string>
+    <string name="next">التـــالــي</string>
     <string name="previous">السابق</string>
 
     <string name="hello_first_fragment">اهلا الاول</string>
@@ -74,24 +74,51 @@
     <string name="chooseExam">أختر الامتحان</string>
     <string name="chooseAngerFace">أختر الوجهه الغاضب</string>
     <string name="Score">النـتـيـجـة</string>
-    <string name="YourScore">نتجيتك : -</string>
+    <string name="YourScore">نتيجتك : -</string>
     <string name="Gong">مبرووووووك</string>
     <string name="chooseSmileFace">"أخترالوجهه المبتسم "</string>
     <string name="chooseConfusionFace">أختر الوجهه الحائر</string>
-    <string name="chooseSurprisedFace">أختر الوجهه المندهش</string>
     <string name="chooseLaughFace">أختر الوجهه الضاحك</string>
     <string name="chooseSadFace">أختر الوجهه الحزين</string>
+    <string name="chooseSurprisedFace">أختر الوجهه المندهش</string>
     <string name="angry_surprise">غاضب-متفاجئ</string>
     <string name="angry_happiness">غاضب-سعيد</string>
     <string name="angry_disgust">غاضب-مشمئز</string>
     <string name="fear_disgust">خائف_مشمئز</string>
     <string name="fear_happy">خائف_فرحان</string>
     <string name="fear_surprise">خائف_مندهش</string>
-    <string name="angry_surpriseDes">" -  ينخفض الجفنان ويتقاربان.\n         -  تظهر خطوطٌ رأسية بين الجفنين.\n         - تحدق العينان بثبات أو تجحظ\n      - يسقط الفك مفتوحًا وتفترق الأسنان لكن لا يوجد شد أو توتر بالفم.\n"</string>
-    <string name="angry_happinessDes"><![CDATA["<b>تعبيرات وجهه :</b>\n         -  ينخفض الجفنان ويتقاربان.\n         -  تظهر خطوطٌ رأسية بين الجفنين.\n         - تحدق العينان بثبات أو تجحظ\n  - نفتح الفم وتنكشف الأسنان. \n    - تظهر تجعيدة تبدأ من طرفي الأنف حتى الطرفين الخارجيين للشفاه.\n         - ترتفع الوجنتان.\n     "]]></string>
-    <string name="fear_disgustDes" />
-    <string name="angry_disgustDes" />
-    <string name="fear_happyDes" />
-    <string name="fear_surpriseDes">kj</string>
+    <string name="angry_surpriseDes">"<b>تعبيرات وجهه :</b>\n -  ينخفض الجفنان ويتقاربان.\n         -  تظهر خطوطٌ رأسية بين الجفنين.\n         - تحدق العينان بثبات أو تجحظ\n      - يسقط الفك مفتوحًا وتفترق الأسنان لكن لا يوجد شد أو توتر بالفم.\n"</string>
+    <string name="angry_happinessDes">
+        <b>تعبيرات وجهه :</b>\n
+     - ينسحب طرفا الشفتين إلى الخلف ويرتفعان إلى الأعلى\n
+         -  ينخفض الجفنان ويتقاربان.\n
+        -  تظهر خطوطٌ رأسية بين الجفنين.\n
+        - تحدق العينان بثبات أو تجحظ\n
+    </string>
+    <string name="fear_disgustDes">
+                <b>تعبيرات وجهه :</b>\n
+        -يرتفع الحاجبان لاعلي \n
+        - تحدق العينين \n
+        - يأخذ الفم وضع نصف الدائره لاسفل \n
+    </string>
+    <string name="angry_disgustDes">
+         <b>تعبيرات وجهه :</b>\n
+        -  ينخفض الجفنان ويتقاربان.\n
+        -  تظهر خطوطٌ رأسية بين الجفنين.\n
+        - تحدق العينان بثبات أو تجحظ\n
+         - يأخذ الفم وضع نصف الدائره لاسفل \n
+    </string>
+    <string name="fear_happyDes">
+         <b>تعبيرات وجهه :</b>\n
+        -يرتفع الحاجبان لاعلي \n
+        - تحدق العينين \n
+           - ينسحب طرفا الشفتين إلى الخلف ويرتفعان إلى الأعلى\n
+    </string>
+    <string name="fear_surpriseDes">
+         <b>تعبيرات وجهه :</b>\n
+        -يرتفع الحاجبان لاعلي \n
+        - تحدق العينين \n
+          - يسقط الفك مفتوحًا وتفترق الأسنان لكن لا يوجد شد أو توتر بالفم.\n
+    </string>
     <string name="ChooseCorretExpr">أختر التعبير المناسب للصور التالية</string>
 </resources>

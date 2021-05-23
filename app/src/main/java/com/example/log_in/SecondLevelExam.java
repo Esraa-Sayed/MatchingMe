@@ -49,7 +49,7 @@ public class SecondLevelExam extends AppCompatActivity implements RadioGroup.OnC
                 {
                     View view2 = getLayoutInflater().inflate(R.layout.score_exam, null);
                     TextView v = view2.findViewById(R.id.SocoreText);
-                    v.setText(Score + " من 5");
+                    v.setText(Score + " من 6");
                     AlertDialog.Builder builder;
                     AlertDialog dialog;
                     builder = new AlertDialog.Builder(SecondLevelExam.this);
